@@ -141,9 +141,11 @@ local Materials = {
     "ForceField"
 }
 
-local function GetSkyboxes()
+local Stuff = {}
+
+function Stuff:ReturnSky()
     return Skyboxes.Skytable
 end
-local function GetMaterials()
+function Stuff:ReturnSky()
     return Materials
 end
