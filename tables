@@ -140,3 +140,10 @@ local Materials = {
     "Pavement",
     "ForceField"
 }
+
+local function GetSkyboxes()
+    return Skyboxes.Skytable
+end
+local function GetMaterials()
+    return Materials
+end
